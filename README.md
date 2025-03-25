@@ -1,4 +1,5 @@
-# ⚡ PowerFlex – Smart Energy Demand Forecasting & Optimization Platform
+# 
+⚡ PowerFlex – Smart Energy Demand Forecasting & Optimization Platform
 
 **PowerFlex** is an end-to-end data engineering project that simulates a smart energy management platform for industrial consumers. It covers data ingestion, preprocessing, demand forecasting, peak detection, and deployment of data pipelines – fully aligned with the mission of companies like **Flexcity**.
 
@@ -65,4 +66,5 @@
 ---
 
 ## 📁 Project Structure
+powerflex/ │ ├── data/ # Raw and processed data ├── notebooks/ # EDA and prototyping ├── pipeline/ # ETL and ML scripts ├── models/ # Trained models ├── dashboards/ # Streamlit or Dash app (optional) ├── Dockerfile ├── requirements.txt ├── airflow/ # DAGs if using Airflow └── 
 
